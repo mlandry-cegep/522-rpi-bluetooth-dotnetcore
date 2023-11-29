@@ -22,7 +22,7 @@ namespace rpi.BLE
                 // ServiceUUIDs est une liste d'UUIDs qui seront inclus dans les données de l'annonce.
                 // Utiliser les UUIDs de services GATT définis dans RPiGattApplication.cs
                 ServiceUUIDs = new[] { "15ff0fcd-6481-4565-9fe0-388628769cce" },
-                LocalName = "Marcel",
+                LocalName = "PiBot-Marcel",
                 // L'apparence est un entier de 16 bits qui représente l'apparence de l'appareil.
                 // La liste des apparences est disponible ici: https://www.bluetooth.com/specifications/assigned-numbers/generic-access-profile/
                 Appearance = (ushort)Convert.ToUInt32("0x01D", 16),
